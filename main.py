@@ -1,4 +1,4 @@
-from Pack.funtions import main
+from Pack.functions import main
 
 operations_file = 'data/operations.json'
 
