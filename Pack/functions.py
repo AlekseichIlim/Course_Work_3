@@ -7,8 +7,10 @@ def get_list_sorted(file_operations, count_operations):
         отсортированных по дате """
 
     with open(file_operations) as file:
+
         list_opr = []
         list_all_opr = json.load(file)
+
         for opr in list_all_opr:
             [list_opr.append(opr) for val in opr.values() if val == 'EXECUTED']
 
