@@ -18,4 +18,6 @@ def test_get_account_or_card_2(value_key_from_2):
 
 
 def test_main():
-    assert main('data/operations.json', 1) is None
+    assert main('/home/atshnik/PycharmProjects/Course_Work_3/pythonProject1/'
+                'tests/test.json', 1) is None
+
